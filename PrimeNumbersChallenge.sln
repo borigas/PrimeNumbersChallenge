@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPrimeNumbersChallenge", "PrimeNumbersChallenge\MyPrimeNumbersChallenge.csproj", "{9E333829-B453-4303-A6B1-5A285311E95B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{CFE4B050-3A60-4FE5-B277-D9E1F252B128}"
+	ProjectSection(SolutionItems) = preProject
+		Externals\OmahaMTG.Challenge.ChallengeCommon.dll = Externals\OmahaMTG.Challenge.ChallengeCommon.dll
+		Externals\PrimeNumbersChallenge.dll = Externals\PrimeNumbersChallenge.dll
+		Externals\System.Numerics.dll = Externals\System.Numerics.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTest", "PrimeTest\PrimeTest.csproj", "{D45C2C9B-89E8-44FD-B52D-833518417700}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://www.benorigas.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PrimeNumbersChallenge\\MyPrimeNumbersChallenge.csproj
+		SccProjectName1 = PrimeNumbersChallenge
+		SccLocalPath1 = PrimeNumbersChallenge
+		SccProjectUniqueName2 = PrimeTest\\PrimeTest.csproj
+		SccProjectName2 = PrimeTest
+		SccLocalPath2 = PrimeTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9E333829-B453-4303-A6B1-5A285311E95B}.Release|x86.ActiveCfg = Release|Any CPU
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Debug|x86.ActiveCfg = Debug|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Debug|x86.Build.0 = Debug|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Release|Any CPU.ActiveCfg = Release|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Release|x86.ActiveCfg = Release|x86
+		{D45C2C9B-89E8-44FD-B52D-833518417700}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
